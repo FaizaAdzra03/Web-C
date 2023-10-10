@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(85, 159, 234);
+  flex-direction: column;
+  display: flex;
+  /* height: 100px; */
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+}
+
+.wrapper {
+  background: white;
+  width: 50%;
+  /* padding: 2rem; */
+  padding: 20px;
+  margin: 30px;
+}
+
+.form-group label {
+  display: block;
+  /* margin: 2rem 0 0.5rem 0; */
+  margin: 20px 0 15px 0;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  font-size: 15pt;
+  background: rgb(232, 232, 232);
+
+  width: 95%;
+  padding: 16px;
+  border: none;
+  /* border: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border 0.15s; */
+}
+
+.daftar {
+  background: rgb(83, 178, 247);
+  color: white;
+  font-size: large;
+  margin-top: 16px;
+  padding: 16px;
+  border: none;
+}
